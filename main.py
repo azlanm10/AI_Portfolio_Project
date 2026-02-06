@@ -25,6 +25,7 @@ def main() -> None:
     for package, module_name in CORE_IMPORTS.items():
         importlib.import_module(module_name)
     print("Edit this line to practice a tiny Git change.")
+    print("This is a test change to practice a tiny Git change.")
 
 
 if __name__ == "__main__":
